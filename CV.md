@@ -64,7 +64,7 @@ function getCommonDirectoryPath(pathes) {
 ### **Professional Experience**
 #### **Trainee, AIS Novations, June 2020 - Present** 
 ---
-##### **`Project description`**  
+##### **Project description**  
 * [JS assignments (algorithms)](https://github.com/KonstantinOrlovsky/js-assignments)
 * [Messenger layout.](https://konstantinorlovsky.github.io/Viber/)
 * [Data base assignments(MySQL, Mongo)](https://github.com/KonstantinOrlovsky/db-assignments)
@@ -74,7 +74,7 @@ function getCommonDirectoryPath(pathes) {
    
 #### **Independent work, January 2020 – June 2020**
    ---
-##### **`Project description`**  
+##### **Project description**  
 * [Test task for calculating an expression with different currencies and logging the       result.](https://github.com/KonstantinOrlovsky/CleverCurrencyConverter)
    
 ##### **Responsibilities** 
@@ -82,7 +82,7 @@ function getCommonDirectoryPath(pathes) {
 * Extract up-to-date currency exchange rate data in various ways. (API, json and XML file, data    base)
 * Сomplete a task in the console.
 
-##### **`Project description`** 
+##### **Project description** 
 * [Test task for calculating the total amount for the subscription       period.](https://github.com/KonstantinOrlovsky/ControlSubscription)
 
 ##### **Responsibilities** 
@@ -90,7 +90,7 @@ function getCommonDirectoryPath(pathes) {
 * The final message should be divided into periods in which the payment per day is the same.
 * Сomplete a task in the console.
 
-##### **`Project description`** 
+##### **Project description** 
 * [Test task for the registration of       employees.](https://github.com/KonstantinOrlovsky/MVC-with-ADO.Net)
 
 ##### **Responsibilities** 
