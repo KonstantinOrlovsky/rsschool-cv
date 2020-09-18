@@ -1,0 +1,199 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konstantin Orlovsky</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Resources/img/fav.png" type="image/x-icon">
+</head>
+<body>
+    <section class="background">
+        <div class="container">
+            <header>
+                <img class="header__avatar" src="Resources/img/MyFoto.png" alt="Avatar">
+
+                <article class="header__content">
+                    <h3>Konstantin Orlovsky</h3>
+                    <h3>Contact info</h3>
+
+                    <section class="header__contacts">
+                        <article>
+                            <img class="icons" src="Resources/img/phone.svg" alt="Phone">
+                        <br><img class="icons" src="Resources/img/mail.svg" alt="Email">
+                        <br><img class="icons" src="Resources/img/skype.svg" alt="Skype">
+                        </article>
+
+                        <article>
+                            <p>+375(25) 920 10 24</p>
+                            <p>kos.orlovsky@gmail.com</p>
+                            <p>live:.cid.233f17da796a4d75</p>
+                        </article>
+
+                    </section>
+                </article>
+
+                
+            </header>
+            <main>
+                <article class="main__content">
+                    <h3>Summary</h3>
+
+                    <ul>
+                        <li>2 years independently studying the stack working in the food industry.</li>
+                        <li>Half a year of practical experience software.</li>
+                        <li>I want to become a senior highly skilled developer</li>
+                    </ul>
+                </article>
+
+                <article class="main__content">
+                    <h3>Skills</h3>
+
+                    <div class="skills__content">
+                        <ul>
+                            <li>Object-oriented development</li> 
+                            <li>C#</li> 
+                            <li>.NET Framework</li>
+                            <li>ASP.NET MVC</li>
+                            <li>MS-SQL</li>
+                            <li>MongoDB</li>
+                            <li>Entity Framework</li>
+                            <li>ADO.NET</li>
+                            <li>HTML/CSS</li>
+                            <li>Java Script</li>
+                        </ul>
+
+                        <ul>
+                            <li>Visual Studio 2019</li>
+                            <li>Visual Studio Code</li>
+                            <li>Microsoft SQL Server Management Studio 18</li>
+                            <li>MySQL Workbench</li>
+                            <li>MongoDB Compass Community</li>
+                            <li>GitHub</li>
+                            <li>Corel Draw</li>
+                            <li>Microsoft Office</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="main__content code__examples" >
+                    <h3>Code examples</h3>
+
+                    <pre class="content__hidden">
+                        ['/web/images/image1.png', '/web/images/image2.png']  => '/web/images/'
+                        ['/web/assets/style.css', '/.bin/mocha',  '/read.me'] => '/'
+                        ['/web/favicon.ico', '/web-scripts/dump', '/webalizer/logs'] => '/'
+                    </pre>
+
+                    <pre>
+                        function getCommonDirectoryPath(pathes) {
+                            let result = '';
+                        
+                            for (let i = 0; i < pathes[0].length; i++) {
+                                for (let j = 1; j < pathes.length; j++) {
+                                    if (pathes[0][i] !== pathes[j][i]) {
+                                        let end = result.lastIndexOf('/');
+                                    
+                                        return result.slice(0, end + 1);
+                                    }
+                                }
+                            
+                                result += pathes[0][i];
+                            }
+                        
+                            return result;
+                        }
+                    </pre>
+                </article>
+
+                <article class="main__content">
+                    <h3>Experience</h3>
+
+                    <h4 class="line-down">Trainee, AIS Novations, June 2020 - Present</h4>
+                    <h4>Project description</h4>
+
+                    <ul>
+                        <li><a href="https://github.com/KonstantinOrlovsky/js-assignments">JS assignments (algorithms)</a> </li>
+                        <li><a href="https://github.com/KonstantinOrlovsky/Viber">Messenger layout</a></li>
+                        <li><a href="https://github.com/KonstantinOrlovsky/db-assignments">Data base assignments(MySQL, Mongo)</a></li>
+                    </ul>
+
+                    <h4>Responsibilities</h4>
+                    <ul>
+                        <li>Сomplete all tasks within 3 - 5 months.</li>
+                    </ul>
+
+                    <h4 class="line-down">Independent work, January 2020 – June 2020</h4>
+                    <h4>Project description</h4>
+                    <a href="https://github.com/KonstantinOrlovsky/CleverCurrencyConverter">Test task for calculating an expression with different currencies and logging the result.</a>
+
+                    <h4>Responsibilities</h4>
+                    <ul>
+                        <li>Use object oriented programming.</li>
+                        <li>Extract up-to-date currency exchange rate data in various ways. (API, json, XML file, data base)</li>
+                        <li>Сomplete a task in the console.</li>
+                    </ul>
+
+                    <h4>Project description</h4>
+                    <a href="https://github.com/KonstantinOrlovsky/ControlSubscription">Test task for calculating the total amount for the subscription period.</a>
+                    
+                    <h4>Responsibilities</h4>
+                    <ul>
+                        <li>The priority is always the discount with the maximum percentage of reduction.</li>
+                        <li>The final message should be divided into periods in which the payment per day is the same.</li>
+                        <li>Сomplete a task in the console.</li>
+                    </ul>
+
+                    <h4>Project description</h4>
+                    <a href="https://github.com/KonstantinOrlovsky/MVC-with-ADO.Net">Test task for the registration of employees.</a>
+                    
+                    <h4>Responsibilities</h4>
+                    <ul>
+                        <li>Use a three-level architecture.</li>
+                        <li>Do not use third-party libraries.</li>
+                        <li>To access the data, you must use a clean one ADO.NET.</li>
+                        <li>The delivery must include all the files needed to build and run the application, as well  as
+                        <br>the script(s) for automatically building and installing the application and creating a database.</li>
+                    </ul>
+                </article>
+
+                <article class="main__content">
+                    <h3>Education</h3>
+                    
+                    <h4>Articles and interactive training  on the websites</h4> 
+                    <ul>
+                        <li>https://metanit.com/</li>
+                        <li>https://docs.microsoft.com/</li>
+                        <li>https://learn.javascript.ru/</li>
+                        <li>https://learngitbranching.js.org/</li>
+                        <li>https://www.sololearn.com/</li>
+                        <li>https://lingualeo.com/</li>
+                        <li>https://developer.mozilla.org/</li>
+                        <li>https://refactoring.guru/</li>
+                    </ul>
+
+                    <h4>Books</h4>  
+                    <ul>
+                        <li>Jeffrey Richter 
+                        <br> CLR via C#</li>
+                        <li>Joseph Albahari, Ben Albahari   
+                        <br> C# 7.0 in a Nutshell: The Definitive Reference</li>
+                    </ul>
+
+                    <h4>Video lessons</h4>
+                    <ul>
+                        <li>https://itvdn.com/</li>
+                        <li>Content on https://www.youtube.com/</li>
+                    </ul>
+                </article>
+
+                <article class="main__content">
+                    <h3>English</h3>
+                    <p>My English level is A1. I study English in the lingua leo app.</p>
+                </article>
+            </main>
+        </div>
+    </section>
+</body>
+</html>
